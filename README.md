@@ -14,7 +14,7 @@ wget https://quilibrium.com/rewards/pre-1.4.18.json
 ## Setup
 - Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/QuilibriumChecker.git
+git clone https://github.com/mtezy/QuilibriumChecker.git
 cp pre-1.4.18.json post-1.4.18.json QuilibriumChecker/
 cd QuilibriumChecker
 ```
