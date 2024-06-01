@@ -1,0 +1,12 @@
+{
+  "name": "QuilibriumChecker",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "aggregateRewards.js",
+  "scripts": {
+    "start": "node aggregateRewards.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
