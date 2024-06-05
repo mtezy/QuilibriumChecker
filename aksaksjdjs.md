@@ -1,4 +1,6 @@
 ## Setup Node
+This tutorial will guide you through setting up a node, configuring GRPC, retrieving metrics, saving configurations, checking visibility, and managing processes.
+
 ```bash
 wget https://go.dev/dl/go1.20.14.linux-amd64.tar.gz && tar -xvf go1.20.14.linux-amd64.tar.gz && mv go /usr/local && rm go1.20.14.linux-amd64.tar.gz && echo -e '\nexport GOROOT=/usr/local/go\nexport GOPATH=$HOME/go\nexport PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.bashrc && source ~/.bashrc && go version && git clone https://source.quilibrium.com/quilibrium/ceremonyclient.git && cd ceremonyclient/node && git checkout release && apt install screen nano gawk cpulimit -y
 ```
