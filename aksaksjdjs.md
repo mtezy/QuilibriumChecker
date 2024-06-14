@@ -53,6 +53,6 @@ fi
 ## Kill all processes
 
 ```sh
-oldest_pid=$(ps aux | grep './node-1.4.18-linux-amd64' | grep -v grep | awk '{print $2}' | head -n 1) && [ -n "$oldest_pid" ] && kill -9 $oldest_pid && echo "Process $oldest_pid has been killed." || echo "Process not found."
+oldest_pid=$(ps aux | grep './node-1.4.19-linux-amd64' | grep -v grep | awk '{print $2}' | head -n 1) && [ -n "$oldest_pid" ] && kill -9 $oldest_pid && echo "Process $oldest_pid has been killed." || echo "Process not found."
 
 ```
